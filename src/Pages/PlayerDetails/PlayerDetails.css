@@ -1,0 +1,446 @@
+.biography{
+    background-color: white;
+    color: black;
+    margin: 100px 0px;
+    margin: 0 auto;
+    padding: 50px 50px;
+    border-radius: 10px;
+    
+}
+.style-playerDetails{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.playerHeading{
+    font-size: 22px;
+    font-weight: 600;
+    color: #18181f;
+}
+.style-playerDetails p{
+    line-height: 1.7;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    text-transform: none;
+    color: #18181f;
+}
+/* table CSS  styly */
+.style-playerDetails table {
+    width: 100%;
+    border-spacing: 2px;
+    border-collapse: separate;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.style-playerDetails table tr:nth-child(even){
+    background-color: #f3f3f3;
+}
+.style-playerDetails table tr:nth-child(even) {
+    color: #949494;
+}
+.style-playerDetails table tr:nth-child(odd) {
+    color: #949494;
+}
+.style-playerDetails table tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+.style-playerDetails table tr td {
+    padding: 15px 12px;
+}
+.details-player-info{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr) ;
+}
+@media only screen and (max-width:688px) {
+    .details-player-info{
+        display: grid;
+        grid-template-columns:repeat(1, 1fr) ;
+    }
+    .details-player-des{
+       
+        width: 470px !important;
+    }
+    .biograph-responsibe{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .style-playerDetails{
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+
+    
+}
+.player-details-video{
+    text-decoration: none;
+    color: #000;
+    font-family:sans-serif;
+    font-weight: 700;
+}
+.details-player-main{
+    background-image: url(https://webmain-a9187.web.app/static/media/Mask%20Group%205.704e9676438f92f60342.png);
+    background-size: cover;
+}
+.details-player-bgimg{
+    background-image: url(https://webmain-a9187.web.app/static/media/Mask%20Group%205.704e9676438f92f60342.png);
+    background-size: cover;
+    position: absolute;
+    top: -321px;
+    height: 793px;
+}
+.details-player-title{
+    color: #ffffff;
+    font-family: Sitka Subheading;
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 200px;
+    width: 680px;
+}
+.details-player-des{
+    color: whitesmoke;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 90px;
+    margin-top: 80px;
+    width: 650px;
+}
+.details-connecting{
+    background-color: #dc3545;
+    color: whitesmoke;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    margin-right: 50px;
+}
+.details-connecting:hover{
+    background-color: whitesmoke;
+    color: #000;
+}
+.details-player-video{
+    color: blue;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+   
+    border: none;
+    border-radius: 10px;
+}
+.details-player-video:hover{
+    font-weight: 700;
+    color: #000;
+}
+.details-player-img{
+    margin-top: 151px;
+    width: 578px;
+    height: 500px;
+    margin-bottom: 121px;
+}
+
+
+.details-single-img{
+    background-image: url(../../Images/Group\ 4303\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.player{
+    text-align: center;
+    padding: 100px;
+    margin-bottom: 100px;
+    box-shadow: 0px 1px 10px -4px #ffffff;
+    cursor: pointer;
+    transition: linear .8s;
+    
+}
+
+
+.banner img {
+    width: 600px;
+    margin: 30px;
+    margin-top: 230px;
+}
+
+.biography{
+    width: 1383px;
+}
+
+
+.player:hover{
+    background: #dc3545;
+    transform: rotateX(45deg);
+    transform: rotateY(45deg);
+    box-shadow: none;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 50px;
+   
+
+}
+.biograph-responsibe{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+@media only screen and (max-width: 688px) {
+    .biograph-responsibe{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .biography{
+        width: 377px;
+    }
+    .details-player-img{
+        width: 464px;
+        height: 464px;
+    }
+    .biography{
+        padding: 28px 2px;
+
+    }
+    .player-details-boi-p3{
+        width: 444px !important;
+    }
+    .player-details-boi-p1{
+        width: 444px !important;
+    }
+    .player-details-boi-p2{
+        width: 444px !important;
+    }
+    .style-playerDetails table {
+        width: 68%;
+       
+    }
+    .banner img {
+        width: 325px !important;
+        
+    }
+    .player p{
+        width: 259px !important;
+        margin-left: -43px !important;
+     
+    }
+    .from-details-res{
+        display: grid !important;
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+    
+}
+.player-details-boi-p3{
+    width: 500px;
+}
+.player-details-boi-p1{
+    width: 500px;
+}
+.player-details-boi-p2{
+    width: 500px;
+}
+.player img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    transition: linear .8s;
+}
+.player h2{
+   
+    margin-bottom: 20px;
+}
+.player h4{
+    
+    margin-bottom: 20px;
+}
+.player p{
+    width: 400px;
+    margin: 0 auto;
+    transition: linear .1s;
+}
+
+.player:hover p{
+    width: 600px;
+}
+.player:hover img{
+    width: 140px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.player-reviwe .images img {
+    width: 60px;
+    height: 60px;
+    margin-right: 30px;
+
+
+}
+
+
+
+.From-Main {
+    padding: 100px;
+    position: relative;
+
+}
+
+.border {
+    border: 1px solid #dee2e6 !important;
+    width: 120%;
+    height: 7px;
+    background: rgba(82, 46, 240, 0.4);
+    position: absolute;
+    left: -107px;
+    top: 0px;
+    box-shadow: rgba(104, 46, 240, 0.4) 0px 5px, rgba(46, 49, 240, 0.3) 0px 10px, rgba(114, 46, 240, 0.2) 0px 15px, rgba(179, 46, 240, 0.1) 0px 20px, rgba(169, 46, 240, 0.05) 0px 25px;
+}
+
+.From {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+}
+
+.From .textarea {
+    width: 400px;
+    margin: 20px;
+    padding: 50px 20px;
+    border: 2px solid #F6F6F6;
+    text-transform: capitalize;
+    border-radius: 10px;
+}
+
+.From input {
+    width: 300px;
+    padding: 20px;
+    height: 20px;
+    margin: 50px;
+    border: 2px solid #F6F6F6;
+    text-transform: capitalize;
+    border-radius: 10px;
+}
+
+
+.Rating {
+    position: absolute;
+    right: 48%;
+    top: 20px;
+}
+
+
+
+.modal-body .PlayerIcon{
+    margin-top: 50px;
+}
+
+
+.modal-body .PlayerIcon .location{
+    width: 300px;
+    background-color: #dc3545;
+    margin: 10px;
+    border-radius: 10px;
+    background-image: url(../../Images/Connting//empty-podium-with-line-gradient-neon-square-frame-vector.jpg);
+    padding: 20px;
+}
+
+.modal-body .PlayerIcon .email{
+    width: 300px;
+    background-color: #dc3545;
+    margin: 10px;
+    border-radius: 10px;    
+    background-image: url(../../Images/Connting//empty-podium-with-line-gradient-neon-square-frame-vector.jpg);
+    padding: 20px;
+}
+.PlayerIcon{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+}
+@media only screen and (max-width:688px) {
+    .PlayerIcon{
+        display: grid;
+        grid-template-columns:repeat(1, 1fr);
+    }
+    .modal-style{
+        width: 465px !important;
+        margin-left: 0px;
+    }
+    .modal-body .PlayerIcon .location{
+        width: 140px;
+        margin: 10px;
+       
+        padding: 0px;
+    }
+    .modal-body .PlayerIcon .email{
+        width: 140px;
+        margin: 10px;
+       
+        padding: 0px;
+    }
+    .modal-body .PlayerIcon .phone{
+        width: 140px !important;
+        margin: 10px !important;
+       
+        padding: 0px !important;
+    }
+    .From-Main {
+        padding: 33px;
+       
+    
+    }
+    .Rating {
+        /* position: absolute; */
+        right: 65%;
+        top: -29px;
+    }
+    .player-detaisl-pres{
+        width: 322px !important;
+    }
+    .player-detaisl-pres13{
+    width:322px !important;
+    }
+}
+.player-detaisl-pres13{
+    margin-bottom: 10px ;
+    font-size: 20px !important;
+    font-weight: 400 !important;
+    width: 500px ;
+    }
+
+.player-detaisl-pres{
+    margin-bottom: 10px ;
+    font-size: 20px !important;
+    font-weight: 400 !important;
+    width: 500px ;
+}
+.modal-body .PlayerIcon .phone{
+    width: 300px;
+    background-color: #dc3545;
+    margin: 10px;
+    border-radius: 10px;
+    background-image: url(../../Images/Connting//empty-podium-with-line-gradient-neon-square-frame-vector.jpg);
+    padding: 20px;
+    
+
+    
+
+}
+
+
+
+.modal-style{
+    background-image: url(../../Images/Connting/pngtree-simple-technology-blue-background-design-display-boardbackground-materialinnovationtechnologybackground-image_72625.jpg);
+    width: 1000px;
+}

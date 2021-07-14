@@ -1,0 +1,66 @@
+[
+         
+         {
+                  "id": "1",
+                  "img":"https://i.ibb.co/Z6Q0yCb/blue-t-shirt.png",
+                  "name":"Blue T-shirt",
+                  "dis":"Co-administrate collaboratively empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits.",
+                  "price": "$10"
+         },
+         {
+                  "id": "2",
+                  "img":"https://i.ibb.co/fYZzyyx/boxing-gloves.png",
+                  "name":"Boxing Gloves",
+                  "dis":"User generated content in real-time will have multiple touchpoints for offshoring. Table win-win survival strategies to ensure proactive.",
+                  "price": "$12"
+         },
+         {
+                  "id": "3",
+                  "img":"https://i.ibb.co/9sGLBKg/blue-switchblade-fin.png",
+                  "name":"Dive Mask",
+                  "dis":"Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative.",
+                  "price": "$15"
+         },
+         {
+                  "id": "4",
+                  "img":"https://i.ibb.co/3C2fLJz/goaltender-mask.png",
+                  "name":"Goaltender Mask",
+                  "dis":"Some proactively envisioned multimedia based expertise and cross-media growth strategies. Seamlessly visualize quality intellectual.",
+                  "price": "$13"
+         },
+         {
+                  "id": "5",
+                  "img":"https://i.ibb.co/FzfyJSP/baseball-gloves.png",
+                  "name":"Baseball Gloves",
+                  "dis":"Operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise.",
+                  "price": "$18"
+         },
+         {
+                  "id": "6",
+                  "img":"https://i.ibb.co/94y4nXj/basketball-ball.png",
+                  "name":"Basketball Ball",
+                  "dis":"Envisioned multimedia based expertise and cross-media growth strategies. Seamlessly visualize quality intellectual capital without superior collaboration.",
+                  "price": "$20"
+         },
+         {
+                  "id": "7",
+                  "img":"https://i.ibb.co/dQ9mgtF/black-switchblade-fin.png",
+                  "name":"Switchblade Fin",
+                  "dis":"Frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further. ",
+                  "price": "$19"
+         },
+         {
+                  "id": "8",
+                  "img":"https://i.ibb.co/FWTFkbT/dive-mask.png",
+                  "name":"Dive Mask",
+                  "dis":"Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative.",
+                  "price": "$16"
+         }
+]
+
+
+
+
+
+
+

@@ -1,0 +1,61 @@
+.match-main {
+    /* background-color: #1d2026; */
+    background-image: url(../../../Images/nextmatch.png);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 16px;
+    border: 5px solid #04a2e2;
+    border-radius: 5px;
+}
+.next-macht-main{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-gap:20px;
+
+}
+@media only screen and (max-width:688px) {
+    .next-macht-main{
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+        grid-gap:20px;
+
+    }
+    .match-main{
+        width: 366px;
+    }
+    .tweets-style{
+        width: 366px;
+    }
+}
+.match-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.vs-style{
+    color: #00a8ff;
+}
+.next-style{
+    color: whitesmoke;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.team-name{
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.date-style{
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+
+}
+.tweets-style{
+    background-color: #00a8ff;
+}

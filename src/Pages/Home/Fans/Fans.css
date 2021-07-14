@@ -1,0 +1,90 @@
+.Fans {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  
+  .Fans h1 {
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+  }
+  
+  .FansFull {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media only screen and (max-width: 688px) {
+    .FansFull {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .clint {
+      margin-top: 62px;
+      width: 453px !important;
+    }
+    .clint img {
+      left: 1px !important;
+    }
+    .fans-p {
+      margin-left: 23px !important;
+    }
+  }
+  
+  .clint {
+    background: rgb(85 48 164);
+    padding: 20px;
+    width: 570px;
+    padding-left: 90px;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .clint h3 {
+    color: rgb(186 194 208);
+    padding: 5px;
+  }
+  
+  .clint img {
+    position: absolute;
+    top: 100px;
+    left: -50px;
+    width: 110px;
+    height: 110px;
+    background: #335ae0;
+  }
+  
+  .logoimage2 {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .timerheight {
+    /* height: 300px; */
+    width: 100%;
+    background-image: url("http://azexo.com/sportak/wp-content/uploads/2015/10/Layer-6.png?id=431");
+  }
+  
+  .logoimage {
+    width: 30px;
+    height: 30px;
+  }
+  .carousel .carousel-control {
+    visibility: hidden;
+  }
+  
+  .fan-img{
+    width: 43%;
+  }
+  a span.carousel-control-prev-icon{
+      display: none !important;
+  }
+  a span.carousel-control-next-icon{
+      display: none !important;
+  }
+  .carousel-indicators{
+      margin-top: 80px !important;
+  }
+  .carousel-indicators [data-bs-target]{
+    width: 0px;
+  }

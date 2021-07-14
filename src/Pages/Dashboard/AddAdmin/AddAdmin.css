@@ -1,0 +1,39 @@
+.admin-main{
+    background-size: cover;
+    text-align: center;
+    margin-top: 56px;
+
+}
+/* .admin-from input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+.input-field{
+    width:495px ;
+    padding: 20px;
+    border-radius: 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: black;
+    color: aliceblue;
+    border-bottom: 2px solid gold;
+}
+.input-field:focus{
+    width: 595px;
+    transition: 2s;
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+
+
+@media only screen and (max-width:688px) {
+    .admin-main{
+        margin-left: 23px;
+        margin-top: 54px;
+    }
+    .input-field{
+        width:340px ;
+    }
+}

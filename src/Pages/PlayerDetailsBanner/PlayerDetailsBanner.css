@@ -1,0 +1,73 @@
+.details-player-info{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr) ;
+}
+.details-player-main{
+    background-image: url(https://webmain-a9187.web.app/static/media/Mask%20Group%205.704e9676438f92f60342.png);
+    background-size: cover;
+    margin-left: 200px;
+}
+.details-player-bgimg{
+    background-image: url(https://webmain-a9187.web.app/static/media/Mask%20Group%205.704e9676438f92f60342.png);
+    background-size: cover;
+    position: absolute;
+    top: -321px;
+    height: 793px;
+}
+.details-player-title{
+    color: #102c50;
+    font-family: Sitka Subheading;
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 200px;
+    width: 680px;
+}
+.details-player-des{
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 90px;
+    margin-top: 80px;
+    width: 650px;
+}
+.details-connecting{
+    background-color: #dc3545;
+    color: whitesmoke;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    margin-right: 50px;
+}
+.details-connecting:hover{
+    background-color: whitesmoke;
+    color: #000;
+}
+.details-player-video{
+    color: blue;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+   
+    border: none;
+    border-radius: 10px;
+}
+.details-player-video:hover{
+    font-weight: 700;
+    color: #000;
+}
+.details-player-img{
+    margin-top: 220px;
+    width: 578px;
+    height: 500px;
+}
+.details-single-img{
+    background-image: url(../../Images/Group\ 4303\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,40 @@
+.pd-bg{
+    background-color: #335ae0;
+}
+.product-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:20px;
+    /* padding-left: 150px; */
+}
+@media only screen and (max-width:688px) {
+    .product-grid{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:20px;
+        /* padding-left: 150px; */
+    }
+}
+
+
+
+
+
+
+
+.pagenation .selated {  
+    background: gold;
+    color: #E40046;
+}
+
+
+.pagenation button {
+    background: #E40046;
+    border: 0px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #FFF;
+    margin-right: 20px;
+    margin-top: 20px;
+}

@@ -1,0 +1,84 @@
+.booking-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ticket-booking-container{
+    background-color: white;
+    color: black;
+    padding: 30px 50px;
+    margin: 5% 15%;
+}
+@media only screen and (max-width:688px) {
+    .ticket-booking-container{
+        width: 455px;
+        margin-left: 15px !important;
+    }
+}
+    
+  
+.ticket-booking-container p{
+    font-size: 18px;
+    opacity: .7;
+}
+.input-box{
+    display: grid;
+    grid-template-columns: 100px auto;
+    align-items: flex-start;
+    justify-items: end;
+    grid-gap: 20px;
+}
+.input-box label{
+    font-weight: 500;
+}
+.input-box input{
+    font-size: 15px;
+}
+.next-match-container{
+    background-color: #27313a;
+    color: #737373;
+}
+.next-match-info-sec{
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+.facebook-icon{
+    background-color: #3b5998;
+    padding: 5px 20px;
+}
+.twitter-icon{
+    background-color: #1DA1F2;
+    padding: 5px 20px;
+}
+.googlePlus-icon{
+    background-color: #DD4B39;
+    padding: 5px 20px;
+}
+.whatsapp-icon{
+    background-color: #34AF23;
+    padding: 5px 20px;
+}
+.envelope-icon{
+    background-color: #4c4c4c;
+    padding: 5px 20px;
+}
+.follow-us-box{
+    margin-top: 10px;
+    display: flex;
+}
+
+/* for responsiveness */
+@media only screen and (max-width: 776px) {
+    .ticket-booking-container{
+        margin: 5% 5%;
+    }
+    .input-box{
+        grid-template-columns: auto;
+        justify-items: start;
+        grid-gap: 0;
+    }
+    .social-box{
+        display: flex;
+        gap: 10px;
+    }
+}

@@ -1,0 +1,13 @@
+.AllPlayer{
+    padding: 0px 0px 100px;
+}
+
+.me-2 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 4px solid #FFF;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+}

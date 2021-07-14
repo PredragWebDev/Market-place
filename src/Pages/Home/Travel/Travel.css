@@ -1,0 +1,71 @@
+.Travel {
+    background: url(../../../Images/smngoz18vj2k8f7se8.463490c3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: aliceblue;
+    text-align: center;
+    padding: 100px;
+    color: black;
+
+
+}
+
+.Travel h1 {
+    font-size: 50px;
+    width: 600px;
+    margin: 0 auto;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+@media only screen and (max-width:688px) {
+    .Travel h1 {
+        font-size: 28px;
+        width: 450px;
+        /* margin: -52px auto; */
+        margin-left: -90px;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+    .Travel .text {
+        background-color: #122c83;
+        opacity: .65;
+        padding: 10px;
+        width: 437px !important;
+        margin-left: -87px !important;
+    
+    }
+    
+  }
+.Travel .text p {
+    font-size: 20px;
+    color: #fafafa;
+
+}
+
+.Travel .text {
+    background-color: #122c83;
+    opacity: .65;
+    padding: 10px;
+    width: 700px;
+    margin: 0 auto;
+
+}
+
+
+.Travel .button {
+    background-color: #e40046;
+    margin: 50px;
+    color: #FFFFFF;
+    padding: 15px 40px;
+    font-size: 20px;
+    transition: linear .4s;
+}
+
+.Travel .button:hover {
+    color: #e40046;
+    font-size: 20px;
+    font-weight: 700;
+    background: none;
+    border: #e40046;
+}

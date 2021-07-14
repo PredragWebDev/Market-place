@@ -1,0 +1,22 @@
+.counter{
+    background-color: #00a8ff;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.count-style h1{
+    font-size: 48px;
+    font-weight: 700;
+    display: block;
+}
+.count-style p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.line{
+    border-right: 2px solid gray;
+    transform: rotate(15deg);
+    width: 2px;
+}

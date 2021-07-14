@@ -1,0 +1,123 @@
+.VolleyBallBanner{
+    background-image: url(../../../Images/VolleyBall/44c85bdd0cc31ec172b7c2e73533c03a.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+    width: 100%;
+}
+
+@media only screen and (max-width:688px) {
+    .VolleyBallBanner{
+        height: 275px;
+    }
+    .VolleyBallBanner .Shap{
+        width: 130px !important;
+        height: 130px !important;
+        border: 5px solid #e40046 !important;
+        border-radius: 5px !important;
+        top: 199px !important;
+        left: 18px !important;
+    }
+
+
+
+    .VolleyBallBanner .Text {
+        top: 219px !important;
+        left: 35px !important;
+        padding: 8px !important;
+        width: 278px;
+    }
+    .cricket-banner-text{
+        font-size: 15px;
+        width: 288px !important ;
+        
+
+    }
+    .VolleyBallBanner .Text p{
+        font-size: 8px;
+        width: 290px !important;
+    }
+    .VolleyBallBanner .Text button{
+        margin-left: 2px;
+        padding: 2px;
+        font-size: 8px !important;
+    }
+    
+
+
+}
+
+
+
+.VolleyBallBanner .Shap {
+    width: 500px;
+    height: 550px;
+    background-color: inherit;
+    border: 20px solid #e40046;
+    border-radius: 5px;
+    position: absolute;
+    top: 245px;
+    left: 60px;
+}
+
+/* 
+.VolleyBallBanner .HoverShap {
+    width: 800px;
+    height: 348px;
+    background-color: #e40046;
+    border-radius: 5px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transition: linear .3s;
+    cursor: pointer;
+} */
+
+
+
+.VolleyBallBanner .Text {
+    position: absolute;
+    top: 350px;
+    left: 350px;
+    background: #000000;
+    padding: 50px;
+    transition: linear .8s;
+    cursor: pointer;
+}
+
+
+.VolleyBallBanner .Text h1{
+    width: 700px;
+}
+
+
+
+
+.VolleyBallBanner .Text p{
+    width: 500px;
+}
+
+
+
+
+
+.VolleyBallBanner .Text button{
+    margin-left: 20px;
+    z-index: -1;
+}
+
+
+
+
+
+
+
+/* .VolleyBallBanner .Text:hover  {
+    background: #e40046;    
+    color: gold;
+    z-index: 1;    
+    transform: rotate(360deg);
+   
+    
+} */

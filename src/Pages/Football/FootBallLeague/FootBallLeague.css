@@ -1,0 +1,65 @@
+
+.PlayersLeg {
+    display: flex;
+    margin-top: 50px;
+    border-bottom: 3px solid #5b5b5b;
+    padding-bottom: 20px;
+    width: 500px;
+    margin-left: 50px;
+}
+
+.images{
+    display: flex;
+    
+}
+.Football-league-main{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+}
+@media only screen and (max-width:688px) {
+    .Football-league-main{
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+    }
+    .football-reague-details{
+        width: 520px !important;
+    }
+    .PlayersLeg{
+        width: 300px;
+    }
+}
+
+.images h1 {
+    
+    margin: 20px 30px 20px 0px;
+    color: #e40046;
+    font-weight: 800;
+}
+
+
+
+.PlayersLeg .images img {
+    width: 100px;
+    height: 100px;
+    background-color: beige;
+    border-radius: 50%;
+    margin-right: 50px;
+}
+
+
+
+
+.PlayersLeg h2 {
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+
+.ImageBanner img{
+    width: 100%;
+    margin-top: 150px;
+
+}

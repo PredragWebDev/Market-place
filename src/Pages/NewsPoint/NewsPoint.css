@@ -1,0 +1,176 @@
+ .Line{
+    width: 150px;
+    margin: 0;
+    position: relative;
+    display: inherit;
+    margin-bottom: 100px;
+    margin-top: 20px;
+    
+}
+/* .news-responsibe{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+} */
+@media only screen and (max-width:688px) {
+    .news-responsibe{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    } 
+    .NewsText{
+        padding: 36px !important;
+        width: 499px;
+
+    }
+    .newspont-details-text{
+        width: 394px;
+    }
+    .latest-news-img{
+        width: 91% !important;
+    }
+    .NewsText .Text{
+        width: 91% !important;
+        
+    }
+    .details-connecting{
+        padding: 3px !important;
+        left: 3% !important;
+    }
+    .details2-connecting{
+        padding: 3px !important;
+        left: 40% !important; 
+    }
+    .eventBanner{
+        width: 467px;
+    }
+    .news-pont-contest-b{
+        left: 14%;
+    }
+    .ContentsFullBanner{
+        width: 381px !important;
+    }
+    .ContentsFullBanner{
+        margin: 0px auto !important;
+         margin-left: 0px !important;
+        width: 379px !important;
+    }
+    /* .TablePoint{
+        width: 454px;
+    } */
+}
+.Line:after, .Line:before {
+    content: "";
+    position: absolute;
+    border: 0;
+    display: inherit;
+    width: 75px;
+    height: 3px;
+    background: #E40046;
+    z-index: 9;
+    margin-left: 0;
+    left: 0;
+    border-radius: 0 0 0 10px;
+    bottom: 0;
+}
+
+.newspoint-text{
+    color: #ffffff;
+    width: 900px;
+    margin: 0 auto;
+    font-family: 'Mukta', sans-serif;
+}
+.Line:after {
+    background: #fbc02d;
+    width: 75px;
+    z-index: 1;
+    right: 0;
+    left: auto;
+    border-radius: 0 10px 0 0;
+}
+
+
+.NewsText {
+    position: relative;
+    margin-top: -200px;
+    text-align: center;
+    padding: 50px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+.NewsText .Text{
+    background: #E40046;
+    width: 100%;
+    height: 200px;
+    opacity: .4;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.TablePoint{
+    position: relative;
+}
+
+
+.TableImage {
+    position: absolute;
+    top: 146px;
+    right: -10px;
+    width: 100%;
+    opacity: .3;
+    
+}
+
+
+.eventBanner{
+    background-image: url(../../Images/UPCOMINGEVENTS/istockphoto-1303366530-612x612.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;    
+    transition: linear .4s;
+    
+}
+
+.ContentsFullBanner{
+    background-image: url(../../Images/UPCOMINGEVENTS/images.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+
+
+.UpEvent {
+    width: 100%;
+    text-align: center;
+    background: #e88bf3;
+    opacity: .5;
+    padding: 300px;
+    height: 100%;
+    transition: linear .4s;
+    visibility: hidden;
+    border-radius: 30px;
+    position: relative;
+}
+
+
+.eventBanner:hover .UpEvent{
+    visibility: visible;
+    transform: scale(20deg);
+
+}
+
+.eventBanner:hover{
+    border-radius: 30px;
+}
+
+.ContentsFullBanner{
+    background-image: url(../../Images/UPCOMINGEVENTS/images.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

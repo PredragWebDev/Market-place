@@ -1,0 +1,91 @@
+.main-section{
+    position: relative;
+}
+.login-main{
+    color: whitesmoke;
+    font-family: 'Roboto black';
+
+}
+
+.bg-img{
+    /* background: url(https://previews.123rf.com/images/leotroyanski/leotroyanski1808/leotroyanski180800005/110349120-football-players-set-golden-linear-soccer-player-illustration-for-sport-banner-background-and-flyer-.jpg?fj=1) ; */
+    background-size: cover;
+    position: absolute;
+    top: -321px;
+    height: 793px !important;
+    /* top: ; */
+    
+    
+    opacity: 0.8;
+}
+.login{
+    background-color: rgba(255, 165, 0 , 8);
+    width: 600px;
+    height: 500px;
+    /* position: absolute; */
+    padding: 40px;
+    /* top: 50%;
+    left: 50%; */
+    margin-left: 971px;
+    margin-top: 294px;
+    margin-bottom: -150px;
+   
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+
+}
+@media only screen and (max-width:688px) {
+    .login{
+        width: 383px !important;
+        height: 483px !important;
+        margin-left: 235px !important;
+
+        
+    }
+    .user-text{
+        width: 250px !important;
+    }
+     
+   }
+   @media only screen and (min-width:689px) and (max-width: 991px){
+    .login{
+        margin-left: 470px;
+    }
+    
+}
+.user-text{
+display: block;
+margin: 20px auto;
+padding: 10px 10px;
+width: 350px;
+background: none;
+border: 2px solid black;
+border-radius: 15px;
+transition: 0.8s;
+
+}
+.user-text:focus{
+    border-left: 40px solid black;
+}
+.login-button{
+    background: none;
+    border: 2px solid black;
+    padding: 10px 10px;
+    width: 100px;
+    margin: 10px 10px;
+    border-radius: 15px;
+    transition: 0.6s;
+}
+.login-button:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+.login-icon{
+    margin: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    background-color: gold;
+}

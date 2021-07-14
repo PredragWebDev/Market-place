@@ -1,0 +1,43 @@
+.fonticon-style{
+    font-size: 50px;
+    color: #ffffff;
+    cursor: pointer;
+    margin: 10px;
+    
+}
+.fonticon-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    /* background-color: whitesmoke; */
+    margin-top: 50px;
+   
+    
+}
+@media only screen and (max-width:688px) {
+  .footericon-title{
+      display: none;
+  }
+  .fonticon-style{
+      font-size: 20px;
+  }
+     
+   }
+.fonticon-info{
+    align-items: center;
+    justify-content: center;
+
+}
+.footericon-title{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    transition: linear .3s;
+    cursor: pointer;
+}
+.footericon-title:hover{
+    color: #ffffff;
+}

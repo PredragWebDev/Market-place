@@ -1,0 +1,53 @@
+.BasketBallBanner{
+    background-image: url(../../../Images/BasketBall/basketball-21.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+    width: 100%;
+}
+
+
+
+
+
+.BasketBallBanner .Shap {
+    width: 500px;
+    height: 550px;
+    background-color: inherit;
+    border: 20px solid #e40046;
+    border-radius: 5px;
+    position: absolute;
+    top: 245px;
+    left: 160px;
+}
+
+
+
+.BasketBallBanner .Text {
+    position: absolute;
+    top: 350px;
+    left: 350px;
+    background: #000000;
+    padding: 50px;
+}
+
+
+.BasketBallBanner .Text h1{
+    width: 700px;
+}
+
+
+
+
+.BasketBallBanner .Text p{
+    width: 500px;
+}
+
+
+
+
+
+.BasketBallBanner .Text button{
+    margin-left: 20px;
+}

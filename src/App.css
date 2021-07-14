@@ -1,0 +1,16 @@
+body  {
+  /* background: url(../src/Images/texture-gradient-simple-background-blue-wallpaper-preview.jpg); */
+  background: url(../src/Images/background456.png);
+    background-color: #111111;
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  background-attachment: fixed;
+  color: aliceblue;
+  overflow-x: hidden;
+}
+
+
+.color{
+  color: #e40046;
+}

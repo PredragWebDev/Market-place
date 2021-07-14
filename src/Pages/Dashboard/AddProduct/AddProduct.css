@@ -1,0 +1,28 @@
+
+
+
+
+  .ProductFrom{
+    width: 500px;
+
+  }
+@media only screen and (max-width:688px) {
+  .ProductFrom{
+    width: 352px;
+    margin-left: -142px;
+
+  }
+  .textarea{
+    width: 328px !important;
+  }
+  .add-product {
+    margin-left: -105px !important;
+  }
+}
+.add-product{
+  color: rgb(255, 183, 0);
+}
+  input:hover {  
+    border-bottom: 1px solid rgb(13, 213, 228);
+  }
+  

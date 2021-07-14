@@ -1,0 +1,88 @@
+.BannerCricket{
+    background-image: url(../../../Images/Cricket/CricketBanner/colorful-text-cricket-illustration-female-player-different-playing-pose-header-banner-poster-design-143124106.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+    width: 100%;
+}
+
+@media only screen and  (max-width:688px){
+    .BannerCricket{
+        height: 281px;
+    }
+    .BannerCricket .Shap{
+        width: 130px !important;
+        height: 130px !important;
+        border: 5px solid #e40046 !important;
+        border-radius: 5px !important;
+        top: 199px !important;
+        left: 18px !important;
+    }
+
+
+
+    .BannerCricket .Text {
+        top: 219px !important;
+        left: 35px !important;
+        padding: 8px !important;
+        width: 278px;
+    }
+    .cricket-banner-text{
+        font-size: 15px;
+        width: 288px !important ;
+        
+
+    }
+    .BannerCricket .Text p{
+        font-size: 8px;
+        width: 290px !important;
+    }
+    .BannerCricket .Text button{
+        margin-left: 2px;
+        padding: 2px;
+        font-size: 8px !important;
+    }
+}
+
+
+.BannerCricket .Shap {
+    width: 500px;
+    height: 550px;
+    background-color: inherit;
+    border: 20px solid #e40046;
+    border-radius: 5px;
+    position: absolute;
+    top: 245px;
+    left: 160px;
+}
+
+
+
+.BannerCricket .Text {
+    position: absolute;
+    top: 350px;
+    left: 350px;
+    background: #000000;
+    padding: 50px;
+}
+
+
+.BannerCricket .Text h1{
+    width: 700px;
+}
+
+
+
+
+.BannerCricket .Text p{
+    width: 500px;
+}
+
+
+
+
+
+.BannerCricket .Text button{
+    margin-left: 20px;
+}

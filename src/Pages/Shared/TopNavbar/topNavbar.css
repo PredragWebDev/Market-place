@@ -1,0 +1,37 @@
+.top-navbar span{
+    display: inline-block;
+    font-size: 14px;
+}
+
+@media only screen and (max-width:688px) {
+    .top-navbar span{
+        font-size: 10px;
+    }
+   .top-banner-link{
+      
+    }
+    .top-banner-contest{
+        margin: 5px !important;
+    }
+}
+
+.top-banner-link{
+    position: absolute;
+    top: 10px;
+    right: 280px;
+}
+
+.top-right-part{
+    color: white;
+    padding: 3px 10px;
+    clip-path: polygon(5% 0, 100% 0%, 95% 99%, 0% 100%);
+}
+.top-right-part:hover{
+    text-decoration: underline;
+}
+@media only screen and (max-width: 992px) {
+    .top-navbar{
+        /* display: none; */
+    }
+
+}

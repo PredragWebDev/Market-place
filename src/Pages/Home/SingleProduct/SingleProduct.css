@@ -1,0 +1,138 @@
+.product-counter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: inherit;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.plus-btn {
+    margin-left: 0.5rem;
+    font-size: 34px;
+    border: none;
+    padding: 5px 15px;
+}
+
+.minus-btn {
+    margin-right: 0.5rem;
+    font-size: 34px;
+    border: none;
+    padding: 5px 15px;
+}
+.product-titel{
+   margin: -0.6923rem 0 0.6154rem;
+   text-transform: uppercase;
+   font-size: 3rem;
+   line-height: 3.462rem;
+   font-weight: 800;
+}
+.product-price{
+   font-size: 2.308rem;
+   line-height: 2.308rem;
+   margin-bottom: 1.846rem;
+}
+.quantity{
+   width: 5.385rem;
+   padding: 1.17rem;
+}
+.cart-style{
+   margin-right: 5px;
+   text-align: center;
+   padding: 0 10px;
+   border: 1px solid gray;
+}
+.cart-btn{
+   padding: 15px 36px;
+   background: #e40046;
+   border:none;
+   color: #fff;
+   cursor: pointer;
+   font-size: 18px;
+   font-weight: 600;
+}
+.modal-btn{
+   padding: 8px 26px;
+   background: #e40046;
+   border:none;
+   color: #fff;
+   cursor: pointer;
+   font-size: 18px;
+   font-weight: 600;
+   border-radius: 25px;
+}
+.des-btn{
+   background: #e40046;
+   padding: 15px 20px;
+   color: #fff;
+   border: none;
+   margin-left: 4%;
+   font-weight: bold;
+}
+.des-btn2{
+   background: #fff;
+   padding: 15px 29px;
+   color: #ffb400;
+   border: none;
+   margin-left: 2%;
+   font-weight: bold;
+   border: solid 1px #ffb400;
+}
+.product-titel{
+ margin-left: 32px;
+ margin-top: 2%;
+}
+.dis-style{
+   color: #ffb400;
+}
+.product-dis1{
+   font-family: 'Open Sans', sans-serif;
+   color: rgb(66, 58, 58);
+}
+.product-dis2{
+   margin-left: 3%;
+   font-family: 'Open Sans', sans-serif;
+}
+.modal-titel1{
+   color: white;
+   font-family: 'Montserrat', sans-serif;
+}
+.modal-style{
+   background-color: rgb(56, 65, 78);
+}
+.modal-pd-name{
+   font-family: 'Montserrat', sans-serif;
+}
+.modal-header-style{
+   text-align: center;
+   margin-top: 20px;
+   margin-bottom: 5px;
+   border-bottom: 1px solid #fff;
+}
+.features-heading{
+   font-weight: 700;
+    font-size: 36px;
+    color: rgb(36, 34, 34);
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.features-btn{
+   padding: 15px 36px;
+   background: #e40046;
+   border:none;
+   color: #fff;
+   cursor: pointer;
+   font-size: 18px;
+   font-weight: 600;
+   margin-bottom: 10px;
+}
+.modal-style1{
+   background-color: rgb(56, 65, 78);
+}
+

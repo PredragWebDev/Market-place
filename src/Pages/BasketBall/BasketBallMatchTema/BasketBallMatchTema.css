@@ -1,0 +1,53 @@
+.FullMatch{
+    text-align: center;
+    padding: 100px;
+    box-shadow: 0px 1px 10px 3px #000000;
+}
+
+.FullMatch img{
+    width: 100px;
+height: 100px;
+}
+
+
+
+.Match{
+    display: inline-block;
+}
+
+
+.ReMatch{
+    display: inline-block;
+}
+
+
+.Match h2{
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #e40046;
+    font-weight: 800;
+    text-transform: capitalize;
+    font-size: 40px;
+}
+
+
+
+.Match h1{
+    display: inline-block;
+    padding: 20px;
+}
+
+.ReMatch h1{
+    display: inline-block;
+    padding: 20px;
+}
+
+
+.Location p{
+    display: inline-block;
+    margin: 20px;
+}
+
+
+

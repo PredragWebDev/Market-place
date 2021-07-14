@@ -1,0 +1,13 @@
+.pd-titel{
+    font-size: 26px;
+}
+/* .single-product-style{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+} */
+@media only screen and (max-width:688px) {
+    .single-product-style{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

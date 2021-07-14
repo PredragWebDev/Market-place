@@ -1,0 +1,13 @@
+.ImagesItam {
+    width: 450px !important;
+    height: 300px;
+    
+    
+}
+.ImagesItam img{
+    width: 100%;
+    height: 300px;
+    box-shadow: 0px 1px 10px -5px #ffffff;
+    border-radius: 10px;
+    
+}

@@ -1,0 +1,53 @@
+
+.CricketLeague {
+    display: flex;
+    margin-top: 50px;
+    border-bottom: 3px solid #5b5b5b;
+    padding-bottom: 20px;
+    width: 420px;
+    margin-left: 50px;
+}
+
+
+
+.images{
+    display: flex;
+    
+}
+
+.images h1 {
+    
+    margin: 20px 30px 20px 0px;
+    color: #e40046;
+    font-weight: 800;
+}
+
+.images img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.CricketLeague h2 {
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+
+.CricketLeague h2 {
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    
+}
+
+
+.CricketLeague h4 {
+    color: #e40046;    
+}
+
+

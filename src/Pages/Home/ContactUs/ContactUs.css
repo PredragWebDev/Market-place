@@ -1,0 +1,98 @@
+.ContactUs{
+    position: relative;
+}
+
+
+
+.Contact{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    margin-top: 100px;
+}
+@media only screen and (max-width:688px){
+    .Contact{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .call{
+        margin-left: 45px;
+    }
+
+    .ContactUs p {
+        width: 447px !important;
+        
+    }
+
+
+}
+
+
+  
+.ContactUs h1 {
+    color: #ffffff;
+    width: 230px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+
+
+.ContactUs .line {
+    background: #E71E68;
+    width: 100px;
+    height: 3px;
+    position: absolute;
+    top: 124px;
+    left: 34%;
+}
+
+
+.ContactUs .line1 {
+    background: #E71E68;
+    width: 100px;
+    height: 3px;
+    position: absolute;
+    top: 125px;
+    right: 37%;
+}
+
+
+.ContactUs p {
+    width: 585px;
+    margin: 0 auto;
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+
+
+
+.call{
+    color: #E71E68;
+}
+
+
+.call p {
+    line-height: 40px;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: left;
+    
+}
+
+.call .FbIcon{
+    margin-right: 20px;
+    font-size: 30px;
+}
+
+
+.ContactImage .ticket-booking-container{
+    box-shadow: 0px 1px 10px 1px #000000;
+    border-radius: 10px; 
+}
+
+
+.ContactImage button{
+    background: #E71E68;
+}

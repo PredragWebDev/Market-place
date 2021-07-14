@@ -1,0 +1,18 @@
+.Banner .Line {
+  background-color: rgba(255, 255, 255, 0.897);
+}
+.carousel-banner{
+  background-color: rgba(0, 0, 0, 0.452) !important;
+  background-blend-mode: multiply;
+}
+.latest-result-box {
+  background: radial-gradient(circle, #0a202f 0%, #225073 0%, #0a202f 100%);
+  color: white;
+  padding: 20px 10px;
+}
+#result-table {
+  color: white;
+}
+
+
+
